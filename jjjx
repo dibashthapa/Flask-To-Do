@@ -1,0 +1,17 @@
+{ "_id" : ObjectId("5de4bddb7decdb5e9c330f9f"), "name" : "dibashthapa", "email" : "dibashthapa55@gmail.com", "password" : "1234567" }
+{ "_id" : ObjectId("5de4bed27decdb5e9c330fa0"), "name" : "samir", "email" : "dibashthapa55@gmail.com", "password" : "password" }
+{ "_id" : ObjectId("5de4bed27decdb5e9c330fa1"), "name" : "John", "email" : "dibashthapa55@gmail.com", "password" : "password" }
+
+{ "_id" : ObjectId("5de4cb353769b1bd00dfe281"), "name" : "Dibash", "email" : "dibashthapa55@gmail.com",
+ "password" : "12345678" }
+db.Users.remove([{ "_id" : ObjectId("5de4bddb7decdb5e9c330f9f"), "name" : "dibashthapa", "email" : "dibashthapa55@gmail.com", "password" : "1234567" }
+,{ "_id" : ObjectId("5de4bed27decdb5e9c330fa0"), "name" : "samir", 
+"email" : "dibashthapa55@gmail.com", "password" : "password" },
+{ "_id" : ObjectId("5de4bed27decdb5e9c330fa1"), "name" : "John", "email" : "dibashthapa55@gmail.com",
+ "password" : "password" },
+{ "_id" : ObjectId("5de4cb353769b1bd00dfe281"), "name" : "Dibash", "email" : "dibashthapa55@gmail.com",
+ "password" : "12345678" }
+
+])
+db.Users.remove({  "_id" : ObjectId("5de4cb353769b1bd00dfe281"), "name" : "Dibash", "email" : "dibashthapa55@gmail.com",
+ "password" : "12345678" })
