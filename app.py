@@ -1,7 +1,7 @@
 from flask import *
 from flask_pymongo import PyMongo
 app=Flask(__name__)
-app.config['MOMGO_DBNAME']='mydb'
+app.config['MONGO_DBNAME']='mydb'
 app.config["MONGO_URI"] = "mongodb://localhost:27017/mydb"
 mongo = PyMongo(app)
 app.secret_key = "dibashthapa"
